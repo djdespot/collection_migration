@@ -241,3 +241,4 @@ yarl==1.4.1 \
     --hash=sha256:b1c178ef813940c9a5cbad42ab7b8b76ac08b594b0a6bad91063c968e0466efc \
     --hash=sha256:d6eff151c3b23a56a5e4f496805619bc3bdf4f749f63a7a95ad50e8267c17475 \
     # via aiohttp
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
