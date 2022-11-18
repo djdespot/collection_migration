@@ -4,7 +4,7 @@
 #
 #    pip-compile --generate-hashes --output-file=requirements.txt requirements.in
 #
-aiohttp==3.6.2 \
+aiohttp==3.8.0 \
     --hash=sha256:1e984191d1ec186881ffaed4581092ba04f7c61582a177b187d3a2f07ed9719e \
     --hash=sha256:259ab809ff0727d0e834ac5e8a283dc5e3e0ecc30c4d80b3cd17a4139ce1f326 \
     --hash=sha256:2f4d1a4fdce595c947162333353d4a44952a724fba9ca3205a3df99a33d1307a \
@@ -80,7 +80,7 @@ chardet==3.0.4 \
     --hash=sha256:84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae \
     --hash=sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691 \
     # via aiohttp
-cryptography==2.8 \
+cryptography==3.2 \
     --hash=sha256:02079a6addc7b5140ba0825f542c0869ff4df9a69c360e339ecead5baefa843c \
     --hash=sha256:1df22371fbf2004c6f64e927668734070a8953362cd8370ddd336774d6743595 \
     --hash=sha256:369d2346db5934345787451504853ad9d342d7f721ae82d098083e1f49a582ad \
@@ -186,7 +186,7 @@ pyjwt[crypto]==1.7.1 \
     --hash=sha256:5c6eca3c2940464d106b99ba83b00c6add741c9becaec087fb7ccdefea71350e \
     --hash=sha256:8d59a976fb773f3e6a39c85636357c4f0e242707394cadadd9814f5cbaa20e96 \
     # via octomachinery
-pyyaml==5.1.2 \
+pyyaml==5.4 \
     --hash=sha256:0113bc0ec2ad727182326b61326afa3d1d8280ae1122493553fd6f4397f33df9 \
     --hash=sha256:01adf0b6c6f61bd11af6e10ca52b7d4057dd0be0343eb9283c878cf3af56aee4 \
     --hash=sha256:5124373960b0b3f4aa7df1707e63e9f109b5263eca5976c66e08b1c552d4eaf8 \
@@ -241,3 +241,4 @@ yarl==1.4.1 \
     --hash=sha256:b1c178ef813940c9a5cbad42ab7b8b76ac08b594b0a6bad91063c968e0466efc \
     --hash=sha256:d6eff151c3b23a56a5e4f496805619bc3bdf4f749f63a7a95ad50e8267c17475 \
     # via aiohttp
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
