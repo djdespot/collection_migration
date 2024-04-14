@@ -114,7 +114,7 @@ gidgethub==3.3.0 \
     --hash=sha256:3692d2df48a23c87ec4a5e74053ce343bc59cea7c34488a9136754a35aeb177a \
     --hash=sha256:4a456758a5fc8bfd581f297df90f2d09efbb830ccd209b1ceba4723705607d70 \
     # via -r requirements.in, octomachinery
-idna==2.8 \
+idna==3.7 \
     --hash=sha256:c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407 \
     --hash=sha256:ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c \
     # via yarl
